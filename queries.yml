@@ -1,16 +1,11 @@
 queries:
   - id: 1
-    name: "AVAIL Total Trading Volume"
-    file: queries/avail_total_volume.sql
+    file: queries/usdc_avail_total_volume.sql
   - id: 2
-    name: "AVAIL Daily Trading Volume"
-    file: queries/avail_daily_volume.sql
+    file: queries/usdc_avail_daily_volume.sql
   - id: 3
-    name: "AVAIL Buy Volume (USDC → AVAIL)"
-    file: queries/avail_buy_volume.sql
+    file: queries/usdc_avail_buy_volume.sql
   - id: 4
-    name: "AVAIL Sell Volume (AVAIL → USDC)"
-    file: queries/avail_sell_volume.sql
+    file: queries/usdc_avail_sell_volume.sql
   - id: 5
-    name: "AVAIL Token Holders Count"
-    file: queries/avail_holders.sql
+    file: queries/usdc_avail_holders.sql
