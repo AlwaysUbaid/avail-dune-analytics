@@ -1,4 +1,4 @@
--- Query to count unique AVAIL holders
+-- Query to count unique AVAIL token holders
 SELECT
     COUNT(DISTINCT holder_address) AS num_holders
 FROM ethereum.token_balances

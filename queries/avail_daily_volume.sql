@@ -1,4 +1,4 @@
--- Query to calculate daily volume for the USDC/AVAIL pair
+-- Query to calculate daily trading volume for the AVAIL token (USDC/AVAIL pair)
 SELECT
     DATE(block_time) AS day,
     SUM(CASE 

@@ -1,4 +1,4 @@
--- Query to calculate total sell volume (AVAIL → USDC)
+-- Query to calculate total sell volume for AVAIL token (AVAIL → USDC)
 SELECT
     SUM(amount_out) AS total_sell_volume
 FROM uniswap_v3.swaps

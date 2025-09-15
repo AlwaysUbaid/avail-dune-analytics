@@ -31,7 +31,7 @@ for id in query_ids:
         os.path.dirname(__file__), 
         '..', 
         'queries', 
-        f'{query.base.name.replace(" ", "_").lower()}___{query.base.query_id}.sql'
+        f'avail_{query.base.name.replace(" ", "_").lower()}___{query.base.query_id}.sql'
     )
     with open(query_file, 'w', encoding='utf-8') as file:
         file.write(f'-- Query name: {query.base.name}\n')

@@ -1,4 +1,4 @@
--- Query to calculate total volume for the USDC/AVAIL pair
+-- Query to calculate total trading volume for the AVAIL token (USDC/AVAIL pair)
 SELECT
     SUM(CASE 
         WHEN token_in = LOWER('0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48') THEN amount_in

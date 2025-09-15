@@ -1,18 +1,18 @@
-### **README for USDC/AVAIL Dune Project**
+### **README for AVAIL Dune Analytics**
 
 ---
 
 #### **Project Overview**
-This repository is designed to manage and automate SQL queries for the USDC/AVAIL pair on Uniswap using Dune Analytics. It includes scripts to pull, push, preview queries, and upload CSV data directly to Dune.
+This repository is designed to manage and automate SQL queries for AVAIL token analysis on Uniswap V3 using Dune Analytics. It provides comprehensive trading analytics including volume metrics, holder analysis, and automated data management tools.
 
 ---
 
 #### **Folder Structure**
 ```
-usdc-avail-ak/
+avail-dune-analytics/
 ├── .env                   # Environment variables (e.g., DUNE_API_KEY)
 ├── queries.yml            # Query metadata (IDs and file paths)
-├── queries/               # SQL queries
+├── queries/               # SQL queries for AVAIL token analysis
 ├── scripts/               # Python automation scripts
 ├── uploads/               # CSV files for Dune table uploads
 └── requirements.txt       # Python dependencies
@@ -23,8 +23,8 @@ usdc-avail-ak/
 #### **Setup Guide**
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/AlwaysUbaid/usdc-avail-ak.git
-   cd usdc-avail-ak
+   git clone https://github.com/AlwaysUbaid/avail-dune-analytics.git
+   cd avail-dune-analytics
    ```
 
 2. **Install Dependencies**
@@ -43,6 +43,16 @@ usdc-avail-ak/
    - Update `queries.yml` with the corresponding query IDs and file paths.
 
 ---
+
+#### **Available Analytics**
+
+The repository includes 5 pre-built SQL queries for comprehensive AVAIL token analysis:
+
+1. **Total Trading Volume** - Complete trading volume for USDC/AVAIL pair
+2. **Daily Trading Volume** - Daily breakdown of trading activity
+3. **Buy Volume** - Volume of USDC → AVAIL trades
+4. **Sell Volume** - Volume of AVAIL → USDC trades  
+5. **Token Holders** - Count of unique AVAIL token holders
 
 #### **Scripts Usage**
 
@@ -70,11 +80,17 @@ usdc-avail-ak/
      python scripts/upload_to_dune.py
      ```
 
+#### **Token Information**
+- **AVAIL Token Address**: `0xEb4dce6106aebE1a927bF3641F7Cea42685Bd68B`
+- **USDC Token Address**: `0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48`
+- **Uniswap V3 Pool**: `0xE71F731C2b76B145354A2BD9e8216F7B0e40D555`
+
 ---
 
 #### **Notes**
 - **Query IDs**: Ensure your query IDs in `queries.yml` match those on Dune.
 - **CSV Uploads**: Only `.csv` files in the `uploads/` folder will be processed.
+- **Environment**: Requires a valid Dune Analytics API key.
 
 ---
 
@@ -88,4 +104,4 @@ This project is open-source and licensed under the MIT License.
 
 ---
 
-You’re ready to manage and visualize your data with Dune Analytics! 🎉
+You're ready to analyze AVAIL token data with Dune Analytics! 🎉

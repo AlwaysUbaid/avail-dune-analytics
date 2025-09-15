@@ -1,4 +1,6 @@
 pandas
 requests
-dotenv
+python-dotenv
+dune-client
+pyyaml
 
