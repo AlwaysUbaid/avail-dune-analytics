@@ -1,4 +1,4 @@
-### **README for AVAIL Dune Analytics**
+### **AVAIL Dune Analytics**
 
 ---
 
