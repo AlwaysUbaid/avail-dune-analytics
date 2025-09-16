@@ -1,15 +1,15 @@
-### **README for USDC/AVAIL Dune Project**
+### **README for AVAIL Dune Analytics**
 
 ---
 
 #### **Project Overview**
-This repository is designed to manage and automate SQL queries for the USDC/AVAIL pair on Uniswap using Dune Analytics. It includes scripts to pull, push, preview queries, and upload CSV data directly to Dune.
+This repository is designed to manage and automate SQL queries for AVAIL token analysis on Uniswap V3 using Dune Analytics. It provides comprehensive trading analytics including volume metrics, holder analysis, and automated data management tools.
 
 ---
 
 #### **Folder Structure**
 ```
-usdc-avail-ak/
+avail-dune-analytics/
 ├── .env                   # Environment variables (e.g., DUNE_API_KEY)
 ├── queries.yml            # Query metadata (IDs and file paths)
 ├── queries/               # SQL queries
@@ -23,8 +23,8 @@ usdc-avail-ak/
 #### **Setup Guide**
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/AlwaysUbaid/usdc-avail-ak.git
-   cd usdc-avail-ak
+   git clone https://github.com/AlwaysUbaid/avail-dune-analytics.git
+   cd avail-dune-analytics
    ```
 
 2. **Install Dependencies**
